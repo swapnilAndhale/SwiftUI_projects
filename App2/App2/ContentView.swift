@@ -9,12 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var companies = ["Mphasis", "Tech_Mahindra", "HCL", "Infosys", "LTI", "Mindtree", "Reliance", "SBI", "TCS" , "Wipro"]
+    @State private var companies = ["Mphasis", "Tech_Mahindra", "HCL", "Infosys", "LTI", "Mindtree", "Reliance", "SBI", "TCS" , "Wipro"].shuffled()
     
     @State private var selectCompany = Int.random(in: 0...2)
     
     @State private var showScore = false
     @State private var scoreTitle = ""
+    @State private var score = 0
 
     
     var body: some View {
@@ -55,17 +56,17 @@ struct ContentView: View {
         .alert(scoreTitle, isPresented: $showScore) {
             Button("Next", action: askCompany)
         } message: {
-            Text("Your Score.. ")
+            Text("Your Score \(score) ")
         }
         
     }
     func comapnyTap(_ company: Int) {
         if company == selectCompany {
             scoreTitle = "Correct"
-
+            score += 1 // score = score + 1
         } else {
             scoreTitle = "Wrong"
-          
+            score -= 1
         }
         
         showScore = true
