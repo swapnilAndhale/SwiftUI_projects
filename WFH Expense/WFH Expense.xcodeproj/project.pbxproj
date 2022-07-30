@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551B275A289559120065009A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551B2759289559120065009A /* AddView.swift */; };
 		5578994D28915A5B00A79DF3 /* WFH_ExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5578994C28915A5B00A79DF3 /* WFH_ExpenseApp.swift */; };
 		5578994F28915A5B00A79DF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5578994E28915A5B00A79DF3 /* ContentView.swift */; };
 		5578995128915A5F00A79DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5578995028915A5F00A79DF3 /* Assets.xcassets */; };
 		5578995428915A5F00A79DF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5578995328915A5F00A79DF3 /* Preview Assets.xcassets */; };
+		55B205A42895522900E8F8ED /* Wfhexp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B205A32895522900E8F8ED /* Wfhexp.swift */; };
+		55BA46042894038F00867753 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BA46032894038F00867753 /* ExpenseItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		551B2759289559120065009A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		5578994928915A5B00A79DF3 /* WFH Expense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WFH Expense.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5578994C28915A5B00A79DF3 /* WFH_ExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WFH_ExpenseApp.swift; sourceTree = "<group>"; };
 		5578994E28915A5B00A79DF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5578995028915A5F00A79DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5578995328915A5F00A79DF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55B205A32895522900E8F8ED /* Wfhexp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wfhexp.swift; sourceTree = "<group>"; };
+		55BA46032894038F00867753 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				5578994C28915A5B00A79DF3 /* WFH_ExpenseApp.swift */,
-				5578994E28915A5B00A79DF3 /* ContentView.swift */,
+				55B205A7289552BC00E8F8ED /* Model */,
+				55B205A52895527000E8F8ED /* View */,
+				55B205A62895528000E8F8ED /* Controller */,
 				5578995028915A5F00A79DF3 /* Assets.xcassets */,
 				5578995228915A5F00A79DF3 /* Preview Content */,
 			);
@@ -65,6 +73,31 @@
 				5578995328915A5F00A79DF3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55B205A52895527000E8F8ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5578994E28915A5B00A79DF3 /* ContentView.swift */,
+				551B2759289559120065009A /* AddView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55B205A62895528000E8F8ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55B205A32895522900E8F8ED /* Wfhexp.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55B205A7289552BC00E8F8ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55BA46032894038F00867753 /* ExpenseItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5578994F28915A5B00A79DF3 /* ContentView.swift in Sources */,
+				55B205A42895522900E8F8ED /* Wfhexp.swift in Sources */,
+				551B275A289559120065009A /* AddView.swift in Sources */,
+				55BA46042894038F00867753 /* ExpenseItem.swift in Sources */,
 				5578994D28915A5B00A79DF3 /* WFH_ExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
