@@ -74,9 +74,10 @@ if let jsonData = json.data(using: .utf8) {
         print(error)
     }
 }
+
 */
 
-/*
+
 
 //Example 3 - Nested JSON objects
 
@@ -84,7 +85,7 @@ let json = """
  {
  "name": "Swapnil Andhale",
  "location" : {
- "country": "India",
+    "country": "India",
  },
  "use": "To buy a new book",
  "loan_amount": 150
@@ -130,10 +131,11 @@ if let jsonData = json.data(using: .utf8) {
     }
 }
 
-*/
+
 
 //Example 4 - JSON on Array
 
+/*
 
 let json = """
 {
@@ -200,3 +202,5 @@ if let jsonData = json.data(using: .utf8) {
         print(error)
     }
 }
+
+*/
