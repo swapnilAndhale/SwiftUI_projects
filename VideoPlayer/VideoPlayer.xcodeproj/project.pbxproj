@@ -3,34 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55203F48289A9B33001989F7 /* MissonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55203F47289A9B33001989F7 /* MissonAppApp.swift */; };
-		55203F4A289A9B33001989F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55203F49289A9B33001989F7 /* ContentView.swift */; };
-		55203F4C289A9B34001989F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55203F4B289A9B34001989F7 /* Assets.xcassets */; };
-		55203F4F289A9B34001989F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55203F4E289A9B34001989F7 /* Preview Assets.xcassets */; };
-		55203F57289A9B76001989F7 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 55203F55289A9B76001989F7 /* missions.json */; };
-		55203F58289A9B76001989F7 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 55203F56289A9B76001989F7 /* astronauts.json */; };
-		55203F5A289A9C19001989F7 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55203F59289A9C19001989F7 /* Astronaut.swift */; };
-		55203F5C289A9D79001989F7 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55203F5B289A9D79001989F7 /* Bundle-Decodable.swift */; };
+		551717D728EB170900EA3E72 /* VideoPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551717D628EB170900EA3E72 /* VideoPlayerApp.swift */; };
+		551717D928EB170900EA3E72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551717D828EB170900EA3E72 /* ContentView.swift */; };
+		551717DB28EB170A00EA3E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551717DA28EB170A00EA3E72 /* Assets.xcassets */; };
+		551717DE28EB170A00EA3E72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551717DD28EB170A00EA3E72 /* Preview Assets.xcassets */; };
+		551717E528EB1ABE00EA3E72 /* Accenture.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 551717E428EB1ABE00EA3E72 /* Accenture.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		55203F44289A9B33001989F7 /* MissonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		55203F47289A9B33001989F7 /* MissonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissonAppApp.swift; sourceTree = "<group>"; };
-		55203F49289A9B33001989F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		55203F4B289A9B34001989F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		55203F4E289A9B34001989F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		55203F55289A9B76001989F7 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
-		55203F56289A9B76001989F7 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
-		55203F59289A9C19001989F7 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
-		55203F5B289A9D79001989F7 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		551717D328EB170900EA3E72 /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		551717D628EB170900EA3E72 /* VideoPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerApp.swift; sourceTree = "<group>"; };
+		551717D828EB170900EA3E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		551717DA28EB170A00EA3E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551717DD28EB170A00EA3E72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		551717E428EB1ABE00EA3E72 /* Accenture.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Accenture.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55203F41289A9B33001989F7 /* Frameworks */ = {
+		551717D028EB170900EA3E72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,158 +34,128 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		55203F3B289A9B33001989F7 = {
+		551717CA28EB170900EA3E72 = {
 			isa = PBXGroup;
 			children = (
-				55203F46289A9B33001989F7 /* MissonApp */,
-				55203F45289A9B33001989F7 /* Products */,
+				551717D528EB170900EA3E72 /* VideoPlayer */,
+				551717D428EB170900EA3E72 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		55203F45289A9B33001989F7 /* Products */ = {
+		551717D428EB170900EA3E72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55203F44289A9B33001989F7 /* MissonApp.app */,
+				551717D328EB170900EA3E72 /* VideoPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		55203F46289A9B33001989F7 /* MissonApp */ = {
+		551717D528EB170900EA3E72 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				55203F47289A9B33001989F7 /* MissonAppApp.swift */,
-				559157EA28E079C2004523CD /* Model */,
-				559157E928E079B3004523CD /* View */,
-				559157EB28E079DC004523CD /* Controller */,
-				55203F56289A9B76001989F7 /* astronauts.json */,
-				55203F55289A9B76001989F7 /* missions.json */,
-				55203F4B289A9B34001989F7 /* Assets.xcassets */,
-				55203F4D289A9B34001989F7 /* Preview Content */,
+				551717D628EB170900EA3E72 /* VideoPlayerApp.swift */,
+				551717D828EB170900EA3E72 /* ContentView.swift */,
+				551717DA28EB170A00EA3E72 /* Assets.xcassets */,
+				551717DC28EB170A00EA3E72 /* Preview Content */,
 			);
-			path = MissonApp;
+			path = VideoPlayer;
 			sourceTree = "<group>";
 		};
-		55203F4D289A9B34001989F7 /* Preview Content */ = {
+		551717DC28EB170A00EA3E72 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				55203F4E289A9B34001989F7 /* Preview Assets.xcassets */,
+				551717E428EB1ABE00EA3E72 /* Accenture.mp4 */,
+				551717DD28EB170A00EA3E72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		559157E928E079B3004523CD /* View */ = {
-			isa = PBXGroup;
-			children = (
-				55203F49289A9B33001989F7 /* ContentView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		559157EA28E079C2004523CD /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				55203F59289A9C19001989F7 /* Astronaut.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		559157EB28E079DC004523CD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				55203F5B289A9D79001989F7 /* Bundle-Decodable.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		55203F43289A9B33001989F7 /* MissonApp */ = {
+		551717D228EB170900EA3E72 /* VideoPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55203F52289A9B34001989F7 /* Build configuration list for PBXNativeTarget "MissonApp" */;
+			buildConfigurationList = 551717E128EB170A00EA3E72 /* Build configuration list for PBXNativeTarget "VideoPlayer" */;
 			buildPhases = (
-				55203F40289A9B33001989F7 /* Sources */,
-				55203F41289A9B33001989F7 /* Frameworks */,
-				55203F42289A9B33001989F7 /* Resources */,
+				551717CF28EB170900EA3E72 /* Sources */,
+				551717D028EB170900EA3E72 /* Frameworks */,
+				551717D128EB170900EA3E72 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MissonApp;
-			productName = MissonApp;
-			productReference = 55203F44289A9B33001989F7 /* MissonApp.app */;
+			name = VideoPlayer;
+			productName = VideoPlayer;
+			productReference = 551717D328EB170900EA3E72 /* VideoPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		55203F3C289A9B33001989F7 /* Project object */ = {
+		551717CB28EB170900EA3E72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					55203F43289A9B33001989F7 = {
-						CreatedOnToolsVersion = 13.3;
+					551717D228EB170900EA3E72 = {
+						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 55203F3F289A9B33001989F7 /* Build configuration list for PBXProject "MissonApp" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 551717CE28EB170900EA3E72 /* Build configuration list for PBXProject "VideoPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 55203F3B289A9B33001989F7;
-			productRefGroup = 55203F45289A9B33001989F7 /* Products */;
+			mainGroup = 551717CA28EB170900EA3E72;
+			productRefGroup = 551717D428EB170900EA3E72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				55203F43289A9B33001989F7 /* MissonApp */,
+				551717D228EB170900EA3E72 /* VideoPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		55203F42289A9B33001989F7 /* Resources */ = {
+		551717D128EB170900EA3E72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55203F4F289A9B34001989F7 /* Preview Assets.xcassets in Resources */,
-				55203F57289A9B76001989F7 /* missions.json in Resources */,
-				55203F4C289A9B34001989F7 /* Assets.xcassets in Resources */,
-				55203F58289A9B76001989F7 /* astronauts.json in Resources */,
+				551717DE28EB170A00EA3E72 /* Preview Assets.xcassets in Resources */,
+				551717DB28EB170A00EA3E72 /* Assets.xcassets in Resources */,
+				551717E528EB1ABE00EA3E72 /* Accenture.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		55203F40289A9B33001989F7 /* Sources */ = {
+		551717CF28EB170900EA3E72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55203F5A289A9C19001989F7 /* Astronaut.swift in Sources */,
-				55203F4A289A9B33001989F7 /* ContentView.swift in Sources */,
-				55203F48289A9B33001989F7 /* MissonAppApp.swift in Sources */,
-				55203F5C289A9D79001989F7 /* Bundle-Decodable.swift in Sources */,
+				551717D928EB170900EA3E72 /* ContentView.swift in Sources */,
+				551717D728EB170900EA3E72 /* VideoPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		55203F50289A9B34001989F7 /* Debug */ = {
+		551717DF28EB170A00EA3E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -235,7 +199,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -245,13 +209,13 @@
 			};
 			name = Debug;
 		};
-		55203F51289A9B34001989F7 /* Release */ = {
+		551717E028EB170A00EA3E72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -289,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -299,14 +263,14 @@
 			};
 			name = Release;
 		};
-		55203F53289A9B34001989F7 /* Debug */ = {
+		551717E228EB170A00EA3E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MissonApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VideoPlayer/Preview Content\"";
 				DEVELOPMENT_TEAM = 4Q7D282PR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Swapnil.MissonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = io.swapnilandhale.VideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,14 +292,14 @@
 			};
 			name = Debug;
 		};
-		55203F54289A9B34001989F7 /* Release */ = {
+		551717E328EB170A00EA3E72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MissonApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VideoPlayer/Preview Content\"";
 				DEVELOPMENT_TEAM = 4Q7D282PR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -349,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Swapnil.MissonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = io.swapnilandhale.VideoPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -360,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		55203F3F289A9B33001989F7 /* Build configuration list for PBXProject "MissonApp" */ = {
+		551717CE28EB170900EA3E72 /* Build configuration list for PBXProject "VideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55203F50289A9B34001989F7 /* Debug */,
-				55203F51289A9B34001989F7 /* Release */,
+				551717DF28EB170A00EA3E72 /* Debug */,
+				551717E028EB170A00EA3E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55203F52289A9B34001989F7 /* Build configuration list for PBXNativeTarget "MissonApp" */ = {
+		551717E128EB170A00EA3E72 /* Build configuration list for PBXNativeTarget "VideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55203F53289A9B34001989F7 /* Debug */,
-				55203F54289A9B34001989F7 /* Release */,
+				551717E228EB170A00EA3E72 /* Debug */,
+				551717E328EB170A00EA3E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 55203F3C289A9B33001989F7 /* Project object */;
+	rootObject = 551717CB28EB170900EA3E72 /* Project object */;
 }

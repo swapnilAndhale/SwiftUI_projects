@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    @State private var value = 10
     let astronauts = Bundle.main.decode("astronauts.json")
     var body: some View {
         Text("\(astronauts.count)")
             .padding()
-        
+   
     }
 }
 
